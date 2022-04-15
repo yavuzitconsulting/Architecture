@@ -31,5 +31,5 @@ RUN apk add --no-cache icu-libs
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 WORKDIR /app
 COPY --from=dotnet /dist .
-COPY --from=angular /source/Web/Frontend/dist ./Frontend/dist
+COPY --from=angular /source/Web/Frontend/dist ./Frontend
 ENTRYPOINT ["dotnet", "Architecture.Web.dll"]

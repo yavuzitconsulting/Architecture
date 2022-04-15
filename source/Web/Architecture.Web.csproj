@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
+        <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="DotNetCore.AspNetCore" Version="16.26.0" />
-        <PackageReference Include="DotNetCore.IoC" Version="16.26.0" />
-        <PackageReference Include="DotNetCore.Logging" Version="16.26.0" />
+        <PackageReference Include="DotNetCore.AspNetCore" Version="16.30.0" />
+        <PackageReference Include="DotNetCore.IoC" Version="16.30.0" />
+        <PackageReference Include="DotNetCore.Logging" Version="16.30.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
     </ItemGroup>
     <ItemGroup>
